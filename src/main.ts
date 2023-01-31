@@ -96,7 +96,7 @@ export async function prepareEdit(
 
   const replacements = new Map<string, string>()
   replacements.set('version', version)
-  replacements.set('url', downloadUrl)
+  // replacements.set('url', downloadUrl)
   if (downloadUrl.endsWith('.git')) {
     replacements.set('tag', tagName)
     replacements.set(
