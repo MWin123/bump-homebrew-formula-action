@@ -1,6 +1,6 @@
 name: bump-homebrew-formula
 description: "Bump Homebrew formula after a new release"
-author: "@mislav"
+author: "@MWin123"
 runs:
   using: node16
   main: "./lib/index.js"
